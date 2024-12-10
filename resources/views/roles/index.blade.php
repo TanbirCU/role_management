@@ -1,6 +1,6 @@
 @extends('./master')
 @section('title')
-    users list
+    Roles list
 @endsection
 @section('content')
    <section class="py-5">
@@ -12,8 +12,6 @@
                             <span>Manage All Roles</span>
                             <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addUserModal">Add User</a>
                         </div>
-                        {{-- <div class="card-header">Manage All users</div>
-                        <div class="card-header">Add Users</div> --}}
                         <div class="card-body">
                             <table class="table table-bordered table-hover">
                                 <thead>
