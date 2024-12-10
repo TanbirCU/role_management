@@ -9,7 +9,7 @@
                 <div class="col-md-12">
                     <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center">
-                            <span>Manage All Users</span>
+                            <span>Manage All Roles</span>
                             <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addUserModal">Add User</a>
                         </div>
                         {{-- <div class="card-header">Manage All users</div>
@@ -19,19 +19,13 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Name</th>
-                                        <th>Email</th>
-                                        <th>Mobile</th>
-                                        <th>Roles</th>
+                                        <th>Role Name</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>tanvir</td>
-                                        <td>tanvir@gamil.com</td>
-                                        <td>02367388</td>
                                         <td>admin</td>
                                         <td>
                                             <button 
