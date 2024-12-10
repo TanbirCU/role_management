@@ -18,7 +18,7 @@
                             <table class="table table-bordered table-hover">
                                 <thead>
                                     <tr>
-                                        <th>#</th>
+                                        <th>SL</th>
                                         <th>Role Name</th>
                                         <th>Actions</th>
                                     </tr>
